@@ -6,12 +6,23 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "mocha"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.20",
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0",
+    "ganache": "^7.9.2",
+    "mocha": "^10.4.0",
+    "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.4"
+    "solc": "^0.8.9",
+    "web3": "^4.9.0"
   },
   "devDependencies": {
     "postcss": "^8",
